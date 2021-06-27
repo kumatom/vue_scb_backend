@@ -1,0 +1,36 @@
+// variables
+$bg-color : #e9f7ea!default;
+
+
+// 自定義 bootstrap
+@import "~bootstrap/scss/functions";
+@import "./helper/variables";
+@import "~bootstrap/scss/mixins";
+
+@import "~bootstrap";
+
+// import
+@import "./scss/order.scss";
+
+a {
+  text-decoration: none;
+}
+
+/* 表格垂直置中*/
+td {
+  vertical-align: middle;
+}
+
+.Login-body-center {
+  height: 100%;
+  text-align: center;
+}
+
+.Login-body-style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://i.imgur.com/bXfHBA4.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
